@@ -7,15 +7,29 @@
 }
 
 body {
-  font-family: "Raleway", "Roboto", sans-serif;
+  font-family: "Roboto", "Raleway", sans-serif;
   color: var(--dark-gray-color);
 }
 .logo-blue {
+  font-family: "Raleway";
   color: var(--blue-color);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  text-decoration: none;
+  letter-spacing: 0.03em;
 }
 .logo-black {
   color: var(--black-color);
+}
+.nav-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
+  color: var(--dark-gray-color);
+  letter-spacing: 0.02em;
+}
+.nav-list-blue {
+  color: var(--blue-color);
 }
