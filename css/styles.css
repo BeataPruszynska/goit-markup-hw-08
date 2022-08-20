@@ -71,3 +71,25 @@ body {
   letter-spacing: 0.06em;
   color: var(--white-color);
 }
+.main-list-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: var(--dark-gray-color);
+}
+.main-list-tekst {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--light-grey-color);
+}
+.list-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.67;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--dark-gray-color);
+}
