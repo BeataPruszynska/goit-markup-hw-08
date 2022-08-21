@@ -34,6 +34,14 @@ body {
   color: var(--dark-gray-color);
   letter-spacing: 0.02em;
 }
+.nav-list-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
+  color: var(--dark-gray-color);
+  letter-spacing: 0.02em;
+}
 .nav-list:hover,
 .nav-list:focus {
   color: var(--blue-color);
@@ -67,11 +75,13 @@ body {
 .main-button-text {
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.88;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--white-color);
+  font-family: "Roboto";
+  font-style: normal;
 }
 .main-list-title {
   font-weight: 700;
@@ -80,7 +90,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--dark-gray-color);
 }
-.main-list-tekst {
+.main-list-text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -108,6 +118,7 @@ body {
   color: var(--light-grey-color);
 }
 .footer-adress {
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -139,6 +150,8 @@ body {
   text-align: center;
   color: var(--white-color);
   cursor: pointer;
+  font-family: "Roboto";
+  font-style: normal;
 }
 .button2 {
   background: var(--button-color);
@@ -151,6 +164,8 @@ body {
   line-height: 1.63;
   text-align: center;
   color: var(--dark-gray-color);
+  font-family: "Roboto";
+  font-style: normal;
 }
 .button2-size-small {
   width: 93px;
