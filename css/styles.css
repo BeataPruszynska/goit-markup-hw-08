@@ -105,10 +105,14 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.67;
-  text-align: center;
   letter-spacing: 0.03em;
   color: var(--dark-gray-color);
+  height: 42px;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 50px;
 }
+
 .caption-name {
   font-weight: 500;
   font-size: 16px;
@@ -243,4 +247,19 @@ body {
 .second-section-container {
   margin-top: 94px;
   padding: 0;
+}
+.third-secion-container > ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+.third-secion-container {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.forth-secion-container {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
