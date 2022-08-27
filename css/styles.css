@@ -196,14 +196,12 @@ body {
   height: 80px;
   left: 0px;
   top: 0px;
-  border: 1px solid black;
   justify-content: space-between;
   align-items: center;
 }
 
 .list-style-first {
   width: 254px;
-  border: 1px solid red;
   display: flex;
   justify-content: space-between;
   padding: 0;
@@ -211,7 +209,6 @@ body {
 }
 .list-style-second {
   width: 295px;
-  border: 1px solid red;
   display: flex;
   justify-content: space-between;
   padding: 0;
