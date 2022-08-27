@@ -157,6 +157,9 @@ body {
   background: var(--button-color);
   border-radius: 4px;
   cursor: pointer;
+  padding: 6px 22px;
+  border: none;
+  margin: 0 8px;
 }
 .button2-text {
   font-weight: 500;
@@ -280,4 +283,30 @@ body {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   text-align: center;
+}
+.footer-container ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.footer-container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer-container > address {
+  padding-top: 20px;
+}
+.header-border {
+  border: 1px solid #ececec;
+}
+.button-container ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.button-container {
+  padding-top: 94px;
 }
