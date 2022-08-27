@@ -89,6 +89,8 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   color: var(--dark-gray-color);
+  margin: 0;
+  padding-bottom: 10px;
 }
 .main-list-text {
   font-weight: 400;
@@ -96,6 +98,8 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--light-grey-color);
+  margin: 0;
+  font-style: normal;
 }
 .list-title {
   font-weight: 700;
@@ -225,4 +229,18 @@ body {
   width: 200px;
   height: 50px;
   margin: 0 auto;
+}
+.main-list-cards {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+.main-list-cards-item {
+  width: 270px;
+}
+.second-section-container {
+  margin-top: 94px;
+  padding: 0;
 }
