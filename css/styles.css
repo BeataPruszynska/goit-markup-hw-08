@@ -203,19 +203,20 @@ body {
 }
 
 .header-box {
-  display: flex;
   height: 80px;
   left: 0px;
   top: 0px;
-  justify-content: space-between;
+  display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .list-style-first {
   width: 254px;
   display: flex;
   justify-content: space-between;
-  padding: 0;
+  padding-left: 93px;
+  padding-right: 371px;
   margin: 0;
 }
 .list-style-second {
@@ -223,7 +224,6 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 0;
-  padding-left: 371px;
 }
 .first-section-container {
   width: 1200px;
