@@ -58,9 +58,7 @@ body {
   color: var(--white-color);
   width: 696px;
   height: 120px;
-  margin: 0 auto;
-  padding-top: 200px;
-  padding-bottom: 30px;
+  margin: 106px auto 30px;
 }
 .main-button {
   width: 200px;
@@ -189,14 +187,11 @@ body {
 }
 .dark-background-color {
   background-color: #2f303a;
+  width: 100%;
 }
+
 .main-background-color {
   background-color: #f5f4fa;
-}
-.container {
-  width: 1170px;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .list-style {
@@ -226,8 +221,8 @@ body {
   padding: 0;
 }
 .first-section-container {
-  height: 600px;
-  display: block;
+  height: 412px;
+  width: 100%;
 }
 .main-button-position {
   display: block;
@@ -246,9 +241,9 @@ body {
 .main-list-cards-item {
   width: 270px;
 }
-.second-section-container {
-  margin-top: 94px;
-  padding: 0;
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .third-secion-container > ul {
   margin: 0;
@@ -257,14 +252,7 @@ body {
   display: flex;
   justify-content: space-between;
 }
-.third-secion-container {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-.forth-secion-container {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
+
 .our-team-cards {
   list-style-type: none;
   margin: 0;
@@ -341,4 +329,10 @@ body {
 .portfolio-cards-container {
   margin-top: 50px;
   margin-bottom: 94px;
+}
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
