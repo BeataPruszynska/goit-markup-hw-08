@@ -305,8 +305,7 @@ body {
   flex-basis: calc((100% - 60px) / 3);
 }
 .portfolio-cards-container ul {
-  width: 1170px;
-  padding: 0;
+  width: 1200px;
   margin: 0;
   display: flex;
   flex-wrap: wrap;
