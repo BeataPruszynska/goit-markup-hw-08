@@ -117,12 +117,15 @@ body {
   font-size: 16px;
   line-height: 1.19;
   color: var(--dark-gray-color);
+  margin: 30px auto 10px;
 }
 .caption-job {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   color: var(--light-grey-color);
+  margin: 0;
+  padding-bottom: 30px;
 }
 .footer-adress {
   font-style: normal;
