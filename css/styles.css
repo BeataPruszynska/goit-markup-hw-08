@@ -278,7 +278,7 @@ body {
   margin: 0;
   padding: 0;
 }
-.footer-list:first-child {
+.footer-list li:first-child {
   margin-bottom: 9px;
 }
 
