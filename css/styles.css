@@ -57,8 +57,7 @@ body {
   text-transform: uppercase;
   color: var(--white-color);
   width: 696px;
-  height: 120px;
-  margin: 106px auto 30px;
+  margin: 0 auto;
 }
 .main-button {
   width: 200px;
@@ -109,7 +108,7 @@ body {
   height: 42px;
   text-align: center;
   margin: 0;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .caption-name {
@@ -133,6 +132,8 @@ body {
   font-size: 14px;
   line-height: 1.71;
   color: var(--white-color);
+  margin-top: 20px;
+  margin-bottom: 9px;
 }
 .footer-contakt-link {
   font-style: normal;
@@ -202,17 +203,16 @@ body {
 
 .header-box {
   height: 80px;
-
   display: flex;
   align-items: center;
 }
 
 .list-style-first {
-  width: 254px;
   display: flex;
   justify-content: space-between;
   padding-left: 93px;
   margin: 0;
+  gap: 46px;
 }
 .list-style-second {
   width: 295px;
@@ -221,9 +221,13 @@ body {
   margin-left: auto;
   padding: 0;
 }
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .first-section-container {
-  height: 412px;
-  width: 100%;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .main-button-position {
   display: block;
@@ -242,10 +246,7 @@ body {
 .main-list-cards-item {
   width: 270px;
 }
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
+
 .third-secion-container > ul {
   margin: 0;
   padding: 0;
@@ -277,6 +278,10 @@ body {
   margin: 0;
   padding: 0;
 }
+.footer-list:first-child {
+  margin-bottom: 9px;
+}
+
 .footer-container {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -303,7 +308,7 @@ body {
   left: 215px;
   top: 262px;
   background: #ffffff;
-  border: 1px solid #eeeeee;
+
   list-style-type: none;
   flex-basis: calc((100% - 60px) / 3);
 }
@@ -319,11 +324,16 @@ body {
   margin: 0;
   padding-left: 24px;
   padding-top: 20px;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
 }
 .portfolio-cards-container p {
   margin: 0;
   padding-left: 24px;
   padding-bottom: 20px;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
 .portfolio-cards-container {
   margin-top: 50px;
