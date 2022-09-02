@@ -8,5 +8,12 @@
   "bracketSpacing": true,
   "jsxBracketSameLine": false,
   "arrowParens": "avoid",
-  "proseWrap": "always"
+  "proseWrap": "always",
+  "htmlWhitespaceSensitivity": "ignore",
+  "bracketSameLine": false,
+  "liveServer.settings.donotVerifyTags": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "liveSassCompile.settings.autoprefix": [],
+  "prettier.bracketSameLine": true
 }
