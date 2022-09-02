@@ -215,6 +215,7 @@ body {
   margin: 0;
   gap: 46px;
 }
+
 .list-style-second {
   display: flex;
   justify-content: space-between;
@@ -360,9 +361,22 @@ body {
 }
 .icon-header {
   margin-right: 10px;
+  fill: var(--light-grey-color);
 }
-.icons-position {
+
+.icon-header:hover,
+.icon-header:focus {
+  color: var(--blue-color);
+}
+
+.icons-header-position {
   display: flex;
   align-items: center;
   gap: 30px;
+}
+.icons-second-section {
+  width: 100%;
+  background: #f5f4fa;
+  border-radius: 4px;
+  background-position: center;
 }
