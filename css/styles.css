@@ -11,6 +11,7 @@ body {
   font-family: "Roboto", "Raleway", sans-serif;
   color: var(--dark-gray-color);
   background-color: var(--white-color);
+  width: 1600px;
 }
 
 .logo-blue {
@@ -215,11 +216,11 @@ body {
   gap: 46px;
 }
 .list-style-second {
-  width: 295px;
   display: flex;
   justify-content: space-between;
   margin-left: auto;
   padding: 0;
+  gap: 30px;
 }
 .section {
   padding-top: 94px;
@@ -228,6 +229,14 @@ body {
 .first-section-container {
   padding-top: 200px;
   padding-bottom: 200px;
+  background-image: linear-gradient(
+      0deg,
+      rgba(47, 48, 58, 0.4) 0%,
+      rgba(47, 48, 58, 0.4) 100%
+    ),
+    url("../images/banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .main-button-position {
   display: block;
@@ -348,4 +357,12 @@ body {
 .padding {
   padding-bottom: 0;
   padding-bottom: 0;
+}
+.icon-header {
+  margin-right: 10px;
+}
+.icons-position {
+  display: flex;
+  align-items: center;
+  gap: 30px;
 }
