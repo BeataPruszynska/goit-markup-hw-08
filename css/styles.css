@@ -127,7 +127,7 @@ body {
   line-height: 1.19;
   color: var(--light-grey-color);
   margin: 0;
-  padding-bottom: 30px;
+  padding-bottom: 16px;
 }
 .footer-adress {
   font-style: normal;
@@ -276,7 +276,7 @@ body {
 }
 .our-team-cards-item {
   width: 270px;
-  height: 368px;
+  height: 428px;
   left: 215px;
   top: 1635px;
   background: #ffffff;
@@ -385,6 +385,40 @@ body {
   display: flex;
   align-items: center;
 }
-.icon-header:hover {
+.icon-header:hover,
+.icon-header:focus {
   fill: var(--blue-color);
+}
+
+.icons-our-team {
+  fill: #afb1b8;
+}
+
+.icons-our-team :hover,
+.icons-our-team :focus {
+  fill: #ffffff;
+}
+.icons-our-team-positon {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 32px;
+  margin-right: 32px;
+  margin-bottom: 30px;
+}
+.icons-our-team-positon-border {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+}
+.icons-our-team-positon-border:hover,
+.icons-our-team-positon-border:focus {
+  background-color: var(--blue-color);
+}
+.icons-our-team-positon-border:hover .icons-our-team,
+.icons-our-team-positon-border:focus .icons-our-team {
+  fill: #ffffff;
 }
