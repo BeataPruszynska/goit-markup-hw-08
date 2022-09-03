@@ -371,7 +371,7 @@ body {
   color: var(--blue-color);
 }
 
-.icons-header-position {
+.icon-header:hover.icons-header-position {
   display: flex;
   align-items: center;
 }
@@ -389,11 +389,12 @@ body {
 .icon-header:focus {
   fill: var(--blue-color);
 }
-
+.icons-header-position {
+  fill: #afb1b8;
+}
 .icons-our-team {
   fill: #afb1b8;
 }
-
 .icons-our-team :hover,
 .icons-our-team :focus {
   fill: #ffffff;
@@ -421,4 +422,8 @@ body {
 .icons-our-team-positon-border:hover .icons-our-team,
 .icons-our-team-positon-border:focus .icons-our-team {
   fill: #ffffff;
+}
+.icons-header-position:hover .icon-header,
+.icons-header-position:focus .icon-header {
+  fill: var(--blue-color);
 }
