@@ -427,3 +427,70 @@ body {
 .icons-header-position:focus .icon-header {
   fill: var(--blue-color);
 }
+.our-clients-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.our-clients-icons {
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  fill: #afb1b8;
+}
+.our-clients-icons:hover,
+.our-clients-icons:focus {
+  fill: var(--blue-color);
+  border: 1px solid var(--blue-color);
+}
+
+.join-us-title {
+  width: 113px;
+  height: 16px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.icons-join-us {
+  fill: #ffffff;
+}
+
+.join-us-icons-border {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.1);
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+}
+
+.social-item-section {
+  display: flex;
+  justify-content: space-between;
+  width: 206px;
+}
+
+.join-us-section {
+  width: 206px;
+  height: 80px;
+}
+.footer-with-social {
+  display: flex;
+  gap: 70px;
+  align-items: baseline;
+}
+
+.join-us-icons-border:hover,
+.join-us-icons-border:focus {
+  background-color: var(--blue-color);
+}
+.join-us-icons-border:hover .icons-join-us,
+.join-us-icons-border:focus .icons-join-us {
+  fill: #ffffff;
+}
