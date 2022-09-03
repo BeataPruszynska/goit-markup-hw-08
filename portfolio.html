@@ -7,18 +7,16 @@
     <title>Portfolio</title>
     <link
       rel="stylesheet"
-      href="https://unpkg.com/modern-normalize@1.1.0/modern-normalize.css"
-    />
+      href="https://unpkg.com/modern-normalize@1.1.0/modern-normalize.css" />
     <link href="./css/styles.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet" />
   </head>
   <body>
-    <header class="header-border">
+    <header>
       <div class="header-box container">
         <a class="logo-blue" href="./index.html"
           >Web<span class="logo-black">Studio</span></a
@@ -39,16 +37,27 @@
 
         <ul class="list-style list-style-second">
           <li>
-            <a
-              class="nav-list nav-list-contakt"
-              href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
+            <div class="icons-header-position">
+              <svg class="icon-header" width="16" height="12">
+                <use xlink:href="./images/icons.svg#icon-envelope"></use>
+              </svg>
+              <a
+                class="nav-list nav-list-contakt"
+                href="mailto:info@devstudio.com">
+                info@devstudio.com
+              </a>
+            </div>
           </li>
+
           <li>
-            <a class="nav-list nav-list-contakt" href="tel:+48111111111"
-              >+48 111 111 111</a
-            >
+            <div class="icons-header-position">
+              <svg class="icon-header" width="10" height="16">
+                <use xlink:href="./images/icons.svg#icon-smartphone"></use>
+              </svg>
+              <a class="nav-list nav-list-contakt" href="tel:+48111111111">
+                +48 111 111 111
+              </a>
+            </div>
           </li>
         </ul>
       </div>
@@ -87,8 +96,7 @@
                 src="./images/img21.jpg"
                 alt="Team"
                 width="370"
-                height="294"
-              />
+                height="294" />
               <h4 class="caption2-main">Technocrack</h4>
               <p class="caption2-secondary">Strona internetowa</p>
             </li>
@@ -97,8 +105,7 @@
                 src="./images/img22.jpg"
                 alt="Basketball"
                 width="370"
-                height="294"
-              />
+                height="294" />
               <h4 class="caption2-main">Grafika New Orlean vs Golden Star</h4>
               <p class="caption2-secondary">Dizajn</p>
             </li>
@@ -107,8 +114,7 @@
                 src="./images/img23.jpg"
                 alt="Seafood-restaurant"
                 width="370"
-                height="294"
-              />
+                height="294" />
               <h4 class="caption2-main">Restauracja Seafood</h4>
               <p class="caption2-secondary">Aplikacja</p>
             </li>
@@ -117,8 +123,7 @@
                 src="./images/img24.jpg"
                 alt="Headphones"
                 width="370"
-                height="294"
-              />
+                height="294" />
               <h4 class="caption2-main">Projekt Prime</h4>
               <p class="caption2-secondary">Marketing</p>
             </li>
@@ -127,8 +132,7 @@
                 src="./images/img25.jpg"
                 alt="Boxes"
                 width="370"
-                height="294"
-              />
+                height="294" />
               <h4 class="caption2-main">Projekt Boxes</h4>
               <p class="caption2-secondary">Aplikacja</p>
             </li>
@@ -137,8 +141,7 @@
                 src="./images/img26.jpg"
                 alt="Monitor"
                 width="370"
-                height="294"
-              />
+                height="294" />
               <h4 class="caption2-main">Inspiration has no Borders</h4>
               <p class="caption2-secondary">Strona internetowa</p>
             </li>
@@ -147,8 +150,7 @@
                 src="./images/img27.jpg"
                 alt="Magazyn"
                 width="370"
-                height="294"
-              />
+                height="294" />
               <h4 class="caption2-main">Magazyn Limited Edition</h4>
               <p class="caption2-secondary">Dizajn</p>
             </li>
@@ -157,8 +159,7 @@
                 src="./images/img28.jpg"
                 alt="Label"
                 width="370"
-                height="294"
-              />
+                height="294" />
               <h4 class="caption2-main">Projekt LAB</h4>
               <p class="caption2-secondary">Marketing</p>
             </li>
@@ -167,8 +168,7 @@
                 src="./images/img29.jpg"
                 alt="Laptop"
                 width="370"
-                height="294"
-              />
+                height="294" />
               <h4 class="caption2-main">Growing Business</h4>
               <p class="caption2-secondary">Aplikacja</p>
             </li>
@@ -177,26 +177,55 @@
       </section>
     </main>
     <footer class="footer-container dark-background-color">
-      <div class="container">
-        <a class="logo-blue" href="./index.html"
-          >Web<span class="logo-white">Studio</span></a
-        >
-        <address class="footer-adress">
-          m. Warszawa, Aleje Jerozolimskie 21
-        </address>
-        <ul>
-          <li>
-            <a class="footer-contakt-link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
+      <div class="container footer-with-social">
+        <div class="adress-section">
+          <a class="logo-blue" href="./index.html"
+            >Web<span class="logo-white">Studio</span></a
+          >
+          <address class="footer-adress">
+            m. Warszawa, Aleje Jerozolimskie 21
+          </address>
+          <ul class="footer-list">
+            <li>
+              <a class="footer-contakt-link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
 
-          <li>
-            <a class="footer-contakt-link" href="tel:+48111111111"
-              >+48 111 111 111</a
-            >
-          </li>
-        </ul>
+            <li>
+              <a class="footer-contakt-link" href="tel:+48111111111"
+                >+48 111 111 111</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="join-us-section">
+          <h4 class="join-us-title">Dołącz do nas</h4>
+
+          <ul class="social-item-section">
+            <li class="join-us-icons-border">
+              <svg class="icons-join-us" height="20" width="20">
+                <use xlink:href="./images/icons.svg#icon-instagram-2"></use>
+              </svg>
+            </li>
+            <li class="join-us-icons-border">
+              <svg class="icons-join-us" height="20" width="20">
+                <use xlink:href="./images/icons.svg#icon-twitter-1"></use>
+              </svg>
+            </li>
+            <li class="join-us-icons-border">
+              <svg class="icons-join-us" height="20" width="20">
+                <use xlink:href="./images/icons.svg#icon-facebook-1"></use>
+              </svg>
+            </li>
+            <li class="join-us-icons-border">
+              <svg class="icons-join-us" height="20" width="20">
+                <use xlink:href="./images/icons.svg#icon-linkedin-1"></use>
+              </svg>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
