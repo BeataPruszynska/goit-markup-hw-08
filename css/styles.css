@@ -431,6 +431,7 @@ body {
 .our-clients-section {
   display: flex;
   justify-content: space-between;
+  list-style-type: none;
 }
 
 .our-clients-icons {
