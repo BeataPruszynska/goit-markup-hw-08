@@ -11,7 +11,6 @@ body {
   font-family: "Roboto", "Raleway", sans-serif;
   color: var(--dark-gray-color);
   background-color: var(--white-color);
-  width: 1600px;
 }
 
 .logo-blue {
@@ -230,6 +229,8 @@ body {
   padding-bottom: 94px;
 }
 .first-section-container {
+  max-width: 1600px;
+  margin: 0 auto;
   padding-top: 200px;
   padding-bottom: 200px;
   background-image: linear-gradient(
