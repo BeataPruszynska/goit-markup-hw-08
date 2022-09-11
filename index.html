@@ -15,6 +15,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet" />
   </head>
+
   <body>
     <header>
       <div class="header-box container">
@@ -24,7 +25,7 @@
         <nav>
           <ul class="list-style list-style-first">
             <li>
-              <a class="nav-list nav-list-blue" href="./agencja.html"
+              <a class="nav-list nav-list-blue active" href="./agencja.html"
                 >Agencja</a
               >
             </li>
@@ -128,26 +129,35 @@
       <section class="container section third-secion-container">
         <p class="list-title">Czym się zajmujemy</p>
         <ul>
-          <li>
+          <li class="picture-container">
             <img
               src="./images/img1.jpg"
               alt="image-programer-working-his-desk"
               width="370"
               height="294" />
+            <div class="picture-description-container">
+              <p class="picture-description">aplikacje komputerowe</p>
+            </div>
           </li>
-          <li>
+          <li class="picture-container">
             <img
               src="./images/img2.jpg"
               alt="designers-are-developing-application-smartphones"
               width="370"
               height="294" />
+            <div class="picture-description-container">
+              <p class="picture-description">aplikacje mobilne</p>
+            </div>
           </li>
-          <li>
+          <li class="picture-container">
             <img
               src="./images/img3.jpg"
               alt="creative-artist-web-design-with-working-colour-selection-graphic"
               width="370"
               height="294" />
+            <div class="picture-description-container">
+              <p class="picture-description">rozwiązania graficzne</p>
+            </div>
           </li>
         </ul>
       </section>
@@ -397,5 +407,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
