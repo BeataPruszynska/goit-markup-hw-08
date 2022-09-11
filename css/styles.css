@@ -321,7 +321,7 @@ body {
   left: 215px;
   top: 262px;
   background: #ffffff;
-
+  position: relative;
   list-style-type: none;
   flex-basis: calc((100% - 60px) / 3);
 }
@@ -535,14 +535,34 @@ body {
 }
 .picture-description-container {
   position: absolute;
-  content: "";
   width: 100%;
   display: block;
   background-color: rgba(47, 48, 58, 0.8);
-  /* bottom: 0; */
   height: 70px;
   align-items: center;
   margin: 0;
   padding: 0;
   top: 224px;
+}
+.description-card-container > p {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+.description-card-container {
+  position: absolute;
+  width: 100%;
+  height: 294px;
+  background-color: rgba(33, 150, 243, 0.9);
+  padding: 49px 45px 49px 24px;
+}
+.description-card {
+  width: 301px;
+  height: 196px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  display: block;
 }
