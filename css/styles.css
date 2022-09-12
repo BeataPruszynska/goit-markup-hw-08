@@ -584,12 +584,12 @@ img {
 .overlay:hover .description-card-container {
   transform: translateY(0);
 }
-.hiden {
+/* .is-hiden {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
   transition: opacity 250ms ease-in-out;
-}
+} */
 .close-button {
   position: absolute;
   top: 8px;
@@ -601,6 +601,9 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.close-button-icon {
+  fill: #000000;
 }
 .backdrop {
   position: fixed;
