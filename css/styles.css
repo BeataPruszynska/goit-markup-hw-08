@@ -601,8 +601,8 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  fill: #000000;
   padding: 0;
+  fill: #000000;
 }
 
 .backdrop {
