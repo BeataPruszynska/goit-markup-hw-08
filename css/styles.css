@@ -601,10 +601,10 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.close-button-icon {
   fill: #000000;
+  padding: 0;
 }
+
 .backdrop {
   position: fixed;
   width: 100%;
