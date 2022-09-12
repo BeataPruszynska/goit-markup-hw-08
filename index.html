@@ -66,11 +66,12 @@
     <main>
       <section class="first-section-container section dark-background-color">
         <h1 class="main-heading">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-        <span class="main-button-position"
-          ><button class="main-button" type="button">
-            <span class="main-button-text">Zamów usługę</span>
-          </button></span
-        >
+        <button
+          class="main-button main-button-position main-button-text"
+          type="button"
+          data-modal-open>
+          Zamów usługę
+        </button>
       </section>
 
       <section class="section container padding">
@@ -407,6 +408,15 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop hiden" data-modal>
+      <div class="modal">
+        <button class="close-button" type="button" data-modal-close>
+          <svg height="30" width="30">
+            <use xlink:href="./images/icons.svg#icon-close-black"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
     <script src="./js/modal.js"></script>
   </body>
 </html>
