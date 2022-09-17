@@ -428,7 +428,7 @@
             </p>
             <label for="user_name">Imie</label>
             <input
-              class="data-form-size data-form-style"
+              class="data-form data-form-size data-form-style"
               type="text"
               name="name"
               id="user_name" />
@@ -451,13 +451,16 @@
               placeholder="Wprowadź tekst"></textarea>
           </div>
           <label>
-            <input type="checkbox" name="terms" />
-            <span
-              >Oświadczam iż akceptuję <a href="#"> Regulamin </a>i
-              <a href="#"> Politykę </a>Prywatności.
+            <input class="form-checkbox" type="checkbox" name="terms" />
+            <span class="form-terms-text"
+              >Oświadczam iż akceptuję
+              <a href="#"><span class="form-terms-link"> Regulamin </span> </a>i
+              <a href="#"
+                ><span class="form-terms-link"> Politykę Prywatności.</span>
+              </a>
             </span>
           </label>
-          <button type="submit">Wyślij</button>
+          <button class="form-buttom" type="submit"><span>Wyślij</span></button>
         </form>
       </div>
     </div>
