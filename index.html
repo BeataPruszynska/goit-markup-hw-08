@@ -423,24 +423,41 @@
             class="form-group"
             role="group"
             aria-labelledby="contact-details-head">
-            <p id="contact-details-head">
+            <p class="form-title" id="contact-details-head">
               Zostaw swoje dane w formularzu poniżej
             </p>
             <label for="user_name">Imie</label>
-            <input type="text" name="name" id="user_name" />
+            <input
+              class="data-form-size data-form-style"
+              type="text"
+              name="name"
+              id="user_name" />
             <label for="user_phone">Telefon</label>
-            <input type="text" name="phone" id="user_phone" />
+            <input
+              class="data-form data-form-size data-form-style"
+              type="text"
+              name="phone"
+              id="user_phone" />
             <label for="user_email">Email</label>
-            <input type="email" name="email" id="user_email" />
+            <input
+              class="data-form data-form-size data-form-style"
+              type="email"
+              name="email"
+              id="user_email" />
             <label>Komentarz</label>
-            <textarea name="feedback" placeholder="Wprowadź tekst"></textarea>
-            <span
-              >Oświadczam iż akceptuję <a href="#"> Regulamin </a>i<a href="#">
-                Politykę </a
-              >Prywatności.</span
-            >
-            <button type="submit">Wyślij</button>
+            <textarea
+              class="data-form data-form-style"
+              name="feedback"
+              placeholder="Wprowadź tekst"></textarea>
           </div>
+          <label>
+            <input type="checkbox" name="terms" />
+            <span
+              >Oświadczam iż akceptuję <a href="#"> Regulamin </a>i
+              <a href="#"> Politykę </a>Prywatności.
+            </span>
+          </label>
+          <button type="submit">Wyślij</button>
         </form>
       </div>
     </div>
