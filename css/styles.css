@@ -732,3 +732,7 @@ img {
   letter-spacing: 0.03em;
   color: #757575;
 }
+.form-icons {
+  fill: var(--dark-gray-color);
+  position: absolute;
+}
