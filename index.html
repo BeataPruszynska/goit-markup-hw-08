@@ -404,6 +404,20 @@
             </li>
           </ul>
         </div>
+        <div class="join-us-section">
+          <h4 class="join-us-title">Zapisz się do newslettera</h4>
+          <form class="newsletter-form">
+            <label for="footer-form"
+              ><input
+                class="footer-input"
+                type="email"
+                id="footer-form"
+                name="email"
+                placeholder="Email"
+            /></label>
+            <button class="newsletter-button" type="submit">Zapisz się</button>
+          </form>
+        </div>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
@@ -433,19 +447,9 @@
                 type="text"
                 name="name"
                 id="user_name" />
-              <!-- <svg
-                class="form-icons"
-                id="icon-Vector-1"
-                width="12"
-                height="12"
-                viewBox="0 0 32 32"
-                x="192"
-                y="0">
-                <path
-                  d="M16 16c4.42 0 8-3.58 8-8s-3.58-8-8-8c-4.42 0-8 3.58-8 8s3.58 8 8 8zM16 20c-5.34 0-16 2.68-16 8v2c0 1.1 0.9 2 2 2h28c1.1 0 2-0.9 2-2v-2c0-5.32-10.66-8-16-8z"></path>
-              </svg> -->
-              <svg class="form-icons" width="12px" height="12px">
-                <use href="./images/form-icons.svg#icon-Vector-1"></use>
+              <svg class="form-icons" width="18px" height="18px">
+                <use
+                  xlink:href="./images/symbol-defs-form.svg#icon-person-black-18dp-1"></use>
               </svg>
             </label>
 
@@ -455,7 +459,13 @@
                 class="data-form data-form-size data-form-style"
                 type="text"
                 name="phone"
-                id="user_phone" />
+                id="user_phone" /><svg
+                class="form-icons"
+                width="18px"
+                height="18px">
+                <use
+                  xlink:href="./images/symbol-defs-form.svg#icon-phone-black-18dp-1"></use>
+              </svg>
             </label>
             <label for="user_email"
               >Email
@@ -463,7 +473,13 @@
                 class="data-form data-form-size data-form-style"
                 type="email"
                 name="email"
-                id="user_email" />
+                id="user_email" /><svg
+                class="form-icons"
+                width="18px"
+                height="18px">
+                <use
+                  xlink:href="./images/symbol-defs-form.svg#icon-email-black-18dp-1"></use>
+              </svg>
             </label>
             <label
               >Komentarz
@@ -473,7 +489,11 @@
                 placeholder="Wprowadź tekst"></textarea>
             </label>
           </div>
-          <label>
+          <label class="terms-container">
+            <svg class="checkbox-icon" width="16px" height="15px">
+              <use
+                xlink:href="./images/symbol-defs-form.svg#icon-icon-check-2"></use>
+            </svg>
             <input class="form-checkbox" type="checkbox" name="terms" />
             <span class="form-terms-text"
               >Oświadczam iż akceptuję
