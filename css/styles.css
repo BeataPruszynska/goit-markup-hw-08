@@ -667,6 +667,7 @@ img {
   border-radius: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   padding-left: 42px;
+  margin-top: 4px;
 }
 .data-form:hover,
 .data-form:focus-within {
@@ -778,6 +779,7 @@ img {
 .terms-container {
   display: inline-flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .form-group label:focus-within .form-icons,
