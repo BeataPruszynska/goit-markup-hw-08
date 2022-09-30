@@ -42,7 +42,7 @@ body {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.header__contakt--list {
+.header__contact--list {
   color: var(--light-grey-color);
   font-weight: 500;
   font-size: 14px;
@@ -53,8 +53,8 @@ body {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header__contakt--list:hover,
-.header__contakt--list:focus {
+.header__contact--list:hover,
+.header__contact--list:focus {
   color: var(--blue-color);
   fill: var(--blue-color);
 }
@@ -166,7 +166,7 @@ body {
   margin-top: 20px;
   margin-bottom: 9px;
 }
-.footer__contakt {
+.footer__contact {
   font-style: normal;
   text-decoration: none;
   font-weight: 400;
@@ -176,19 +176,19 @@ body {
   color: rgba(255, 255, 255, 0.6);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer__contakt:hover,
-.footer__contakt:focus {
+.footer__contact:hover,
+.footer__contact:focus {
   color: var(--blue-color);
 }
-.button2:hover,
-.button2:focus {
+.button-container__button:hover,
+.button-container__button:focus {
   background: var(--blue-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   color: var(--white-color);
 }
-.button2 {
+.button-container__button {
   background-color: var(--button-color);
   border-radius: 4px;
   cursor: pointer;
@@ -199,7 +199,7 @@ body {
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.button2-text {
+.button-container__button--text {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
@@ -209,14 +209,14 @@ body {
   font-style: normal;
 }
 
-.caption2-main {
+.cards-container__header {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--dark-gray-color);
 }
-.caption2-secondary {
+.cards-container__description {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
@@ -244,7 +244,7 @@ body {
   align-items: center;
 }
 
-.header__contakt {
+.header__contact {
   display: flex;
   justify-content: space-between;
   margin-left: auto;
@@ -326,7 +326,7 @@ body {
 .footer > address {
   padding-top: 20px;
 }
-.header-border {
+.header__border {
   border-bottom: 1px solid #ececec;
 }
 .button-container ul {
@@ -338,7 +338,7 @@ body {
   display: flex;
 }
 
-.portfolio-cards-item {
+.cards-container__item {
   box-sizing: border-box;
   width: 370px;
   height: 404px;
@@ -348,7 +348,7 @@ body {
   position: relative;
   transform: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio-cards-container ul {
+.cards-container ul {
   width: 1170px;
   padding: 0;
   margin: auto;
@@ -356,14 +356,14 @@ body {
   flex-wrap: wrap;
   gap: 30px;
 }
-.portfolio-cards-container h4 {
+.cards-container h4 {
   margin: 0;
   padding-left: 24px;
   padding-top: 20px;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
 }
-.portfolio-cards-container p {
+.cards-container p {
   margin: 0;
   padding-left: 24px;
   padding-bottom: 20px;
@@ -371,7 +371,7 @@ body {
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
 }
-.portfolio-cards-container {
+.cards-container {
   margin-top: 50px;
 }
 .container {
@@ -528,7 +528,7 @@ body {
 .footer__icon--border:focus .footer__icon {
   fill: #ffffff;
 }
-.portfolio-cards-item:hover {
+.cards-container__item:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -580,14 +580,14 @@ img {
   padding: 0;
   top: 224px;
 }
-.description-card-container > p {
+.cards-container__overlay--position > p {
   border: none;
   padding-bottom: 0;
   padding-left: 0;
   width: 301px;
   height: 196px;
 }
-.description-card-container {
+.cards-container__overlay--position {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -601,7 +601,7 @@ img {
   transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.description-card {
+.cards-container__overlay--text {
   width: 301px;
   height: 196px;
   font-weight: 400;
@@ -611,12 +611,12 @@ img {
   color: #ffffff;
 }
 
-.overlay {
+.cards-container__overlay {
   position: relative;
   overflow: hidden;
   border-bottom: 1px solid #eeeeee;
 }
-.overlay:hover .description-card-container {
+.cards-container__overlay:hover .cards-container__overlay--position {
   transform: translateY(0);
 }
 .is-hidden {
