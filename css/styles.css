@@ -32,7 +32,7 @@ body {
   color: var(--black-color);
 }
 
-.header__nav--center {
+.header__center {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -42,7 +42,7 @@ body {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.header__contact--list {
+.header__link {
   color: var(--light-grey-color);
   font-weight: 500;
   font-size: 14px;
@@ -53,14 +53,14 @@ body {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header__contact--list:hover,
-.header__contact--list:focus {
+.header__link:hover,
+.header__link:focus {
   color: var(--blue-color);
   fill: var(--blue-color);
 }
 
-.header__nav--center:hover,
-.header__nav--center:focus {
+.header__center:hover,
+.header__center:focus {
   color: var(--blue-color);
   fill: var(--blue-color);
 }
@@ -199,7 +199,7 @@ body {
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.button-container__button--text {
+.button-container__text {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
@@ -279,7 +279,7 @@ body {
   display: flex;
   justify-content: space-around;
 }
-.second-section__cards--witdh {
+.second-section__cards-witdh {
   width: 270px;
 }
 
@@ -397,7 +397,7 @@ body {
   color: var(--blue-color);
 }
 
-.header__icons:hover.header__icons--position {
+.header__icons:hover.header__icons-position {
   display: flex;
   align-items: center;
   transition-duration: 250ms;
@@ -406,7 +406,7 @@ body {
 .second-section__icons {
   width: 100%;
 }
-.second-section__icons--background {
+.second-section__icons-background {
   height: 120px;
   background: #f5f4fa;
   border-radius: 4px;
@@ -417,7 +417,7 @@ body {
 .header__icons:focus {
   fill: var(--blue-color);
 }
-.header__icons--position {
+.header__icons-position {
   fill: #afb1b8;
 }
 .fourth-section__icons {
@@ -428,14 +428,14 @@ body {
 .fourth-section__icons :focus {
   fill: #ffffff;
 }
-.fourth-section__icons--positon {
+.fourth-section__icons-positon {
   display: flex;
   justify-content: space-between;
   margin-left: 32px;
   margin-right: 32px;
   margin-bottom: 30px;
 }
-.fourth-section__icons--border {
+.fourth-section__icons-border {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -446,19 +446,19 @@ body {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.fourth-section__icons--border:hover,
-.fourth-section__icons--border:focus {
+.fourth-section__icons-border:hover,
+.fourth-section__icons-border:focus {
   background-color: var(--blue-color);
 }
-.fourth-section__icons--border:hover .fourth-section__icons,
-.fourth-section__icons--border:focus .fourth-section__icons {
+.fourth-section__icons-border:hover .fourth-section__icons,
+.fourth-section__icons-border:focus .fourth-section__icons {
   fill: #ffffff;
 }
-.header__icons--position:hover .header__icons,
-.header__icons--position:focus .header__icons {
+.header__icons-position:hover .header__icons,
+.header__icons-position:focus .header__icons {
   fill: var(--blue-color);
 }
-.fifth-section__icons--position {
+.fifth-section__icons-position {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
@@ -493,7 +493,7 @@ body {
   fill: #ffffff;
 }
 
-.footer__icon--border {
+.footer__icon-border {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -505,13 +505,13 @@ body {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer__icon--position {
+.footer__icon-position {
   display: flex;
   justify-content: space-between;
   width: 206px;
 }
 
-.footer__column--height {
+.footer__column-height {
   height: 80px;
 }
 .footer__with-social {
@@ -520,23 +520,23 @@ body {
   align-items: baseline;
 }
 
-.footer__icon--border:hover,
-.footer__icon--border:focus {
+.footer__icon-border:hover,
+.footer__icon-border:focus {
   background-color: var(--blue-color);
 }
-.footer__icon--border:hover .footer__icon,
-.footer__icon--border:focus .footer__icon {
+.footer__icon-border:hover .footer__icon,
+.footer__icon-border:focus .footer__icon {
   fill: #ffffff;
 }
 .cards-container__item:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-.header__nav--active {
+.header__active {
   position: relative;
   color: var(--blue-color);
 }
-.header__nav--active::after {
+.header__active::after {
   display: block;
   position: absolute;
   border-radius: 2px;
@@ -580,14 +580,14 @@ img {
   padding: 0;
   top: 224px;
 }
-.cards-container__overlay--position > p {
+.cards-container__overlay-position > p {
   border: none;
   padding-bottom: 0;
   padding-left: 0;
   width: 301px;
   height: 196px;
 }
-.cards-container__overlay--position {
+.cards-container__overlay-position {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -601,7 +601,7 @@ img {
   transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.cards-container__overlay--text {
+.cards-container__overlay-text {
   width: 301px;
   height: 196px;
   font-weight: 400;
@@ -616,7 +616,7 @@ img {
   overflow: hidden;
   border-bottom: 1px solid #eeeeee;
 }
-.cards-container__overlay:hover .cards-container__overlay--position {
+.cards-container__overlay:hover .cards-container__overlay-position {
   transform: translateY(0);
 }
 .is-hidden {
@@ -667,7 +667,7 @@ img {
   height: 342px;
   margin: 40px auto;
 }
-.form__input--size {
+.form__input-size {
   width: 448px;
   height: 40px;
   border: 1px solid #2196f3;
@@ -680,7 +680,7 @@ img {
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.form__input--style {
+.form__input-style {
   border-radius: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   padding-left: 42px;
@@ -766,7 +766,7 @@ img {
   bottom: 12px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer__column--height input {
+.footer__column-height input {
   width: 358px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -793,7 +793,7 @@ img {
 .footer-input::placeholder {
   padding-left: 16px;
 }
-.form__terms--position {
+.form__terms-position {
   display: inline-flex;
   align-items: center;
   cursor: pointer;
@@ -822,7 +822,7 @@ img {
 .form__checkbox:hover {
   border-color: var(--blue-color);
 }
-.form__checkbox--hidden {
+.form__checkbox-hidden {
   -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;
