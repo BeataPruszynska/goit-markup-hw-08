@@ -1,4 +1,4 @@
-@use "../utils/variables.scss" as color;
+@use "./utils/variables.scss";
 
 .header {
   height: 80px;
@@ -11,7 +11,7 @@
 }
 .header__active {
   position: relative;
-  color: color.$link;
+  color: getColor("link");
 }
 .header__active::after {
   display: block;

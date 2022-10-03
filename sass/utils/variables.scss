@@ -1,16 +1,20 @@
-$colors:(
-"primary": #212121,
-"secondary": #757575,
-"icons": #AFB1B8,
-"link": #2196F3,
-"background": #FFFFFF,
-"black": #000000,
-"button":#F5F4FA,
-"darkBackground":#2F303A,
-"border":#ECECEC,
+$colors: (
+  "primary": #212121,
+  "secondary": #757575,
+  "icons": #afb1b8,
+  "link": #2196f3,
+  "background": #ffffff,
+  "black": #000000,
+  "button": #f5f4fa,
+  "darkBackground": #2f303a,
+  "border": #ececec,
 );
 
-$fonts:(
-    "primary":"Roboto",
-    "secondary":"Roboto",
-);
+@function getColor($key) {
+  @return map-get($colors, $key);
+}
+
+// $fonts:(
+//     "primary":"Roboto",
+//     "secondary":"Roboto",
+// );
