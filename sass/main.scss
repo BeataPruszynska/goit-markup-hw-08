@@ -1,1 +1,16 @@
-@use
+@use "./components/global";
+@use "./utils/variables.scss";
+@use "./components/header";
+@use "./components/firstSection";
+@use "./components/secondSection";
+@use "./components/thirdSection";
+@use "./components/fourthSection";
+@use "./components/fourthSectionIcons";
+@use "./components/fifthSection";
+@use "./components/footer";
+@use "./components/footerIcons";
+@use "./components/modal";
+@use "./components/form";
+@use "./components/buttonsContainer";
+@use "./components/cardsContainer";
+@use "./components/cardsContainerOverlay";
