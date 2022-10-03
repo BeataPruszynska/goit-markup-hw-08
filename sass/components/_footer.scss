@@ -1,15 +1,15 @@
 .footer__logo {
   font-family: "Raleway";
-  color: var(--blue-color);
+  color: getColor("link");
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
   letter-spacing: 0.03em;
-}
 
-.footer__logo--white {
-  color: var(--white-color);
+  &--white {
+    color: getColor("background");
+  }
 }
 
 .footer__title {
@@ -21,50 +21,52 @@
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: getColor("background");
   margin-bottom: 20px;
 }
 
 .footer__column-height {
   height: 80px;
+
+  & input {
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background: getColor("darkBackground");
+  }
 }
 .footer__with-social {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
 }
-.footer__column-height input {
-  width: 358px;
-  height: 50px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  border-radius: 4px;
-  background: #2f303a;
-}
+
 .footer__button {
   width: 200px;
   height: 50px;
-  background: #2196f3;
+  background: getColor("link");
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-color: #2196f3;
+  border-color: getColor("link");
   border-radius: 4px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   padding-right: 52px;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: getColor("background");
   cursor: pointer;
   margin-left: 10px;
+
+  &-icon {
+    fill: getColor("background");
+    position: absolute;
+    margin-left: 24px;
+  }
 }
 .footer-input::placeholder {
   padding-left: 16px;
-}
-
-.footer__button-icon {
-  fill: #ffffff;
-  position: absolute;
-  margin-left: 24px;
 }
 
 .footer__adress {
@@ -72,7 +74,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  color: var(--white-color);
+  color: getColor("background");
   margin-top: 20px;
   margin-bottom: 9px;
 }
@@ -85,10 +87,11 @@
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.footer__contact:hover,
-.footer__contact:focus {
-  color: var(--blue-color);
+
+  &:hover,
+  &:focus {
+    color: getColor("link");
+  }
 }
 
 .footer ul {
@@ -103,7 +106,7 @@
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: #2f303a;
+  background-color: getColor("darkBackground");
 }
 .footer > address {
   padding-top: 20px;

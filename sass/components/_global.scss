@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto", "Raleway", sans-serif;
-  color: var(--dark-gray-color);
-  background-color: var(--white-color);
+  color: getColor("primary");
+  background-color: getColor("background");
 }
 
 img {
@@ -12,7 +12,7 @@ img {
   font-size: 36px;
   line-height: 1.67;
   letter-spacing: 0.03em;
-  color: var(--dark-gray-color);
+  color: getColor("primary");
   height: 42px;
   text-align: center;
   margin: 0;

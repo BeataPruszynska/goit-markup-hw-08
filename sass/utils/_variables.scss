@@ -8,13 +8,14 @@ $colors: (
   "button": #f5f4fa,
   "darkBackground": #2f303a,
   "border": #ececec,
+  "cards": #eeeeee,
 );
 
 @function getColor($key) {
   @return map-get($colors, $key);
 }
 
-// $fonts:(
-//     "primary":"Roboto",
-//     "secondary":"Roboto",
-// );
+$fonts: (
+  "primary": "Roboto",
+  "secondary": "Roboto",
+);

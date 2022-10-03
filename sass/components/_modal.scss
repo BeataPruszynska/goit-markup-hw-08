@@ -4,20 +4,6 @@
   pointer-events: none;
   transition: opacity 250ms ease-in-out;
 }
-.modal__close-button {
-  position: absolute;
-  top: 8px;
-  right: 8px;
-  background-color: #ffffff;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 50%;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0;
-  fill: #000000;
-}
 
 .backdrop {
   position: fixed;
@@ -35,9 +21,24 @@
   width: 528px;
   min-height: 581px;
   position: absolute;
-  background-color: #ffffff;
+  background-color: getColor("background");
   visibility: visible;
   opacity: 1;
   display: block;
   transform: translate(-50%, -50%);
+
+  &__close-button {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background-color: getColor("background");
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    fill: getColor("black");
+  }
 }
