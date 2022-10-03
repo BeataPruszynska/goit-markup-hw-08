@@ -1,0 +1,16 @@
+.header__logo {
+  font-family: "Raleway";
+  color: var(--blue-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+}
+.header__logo:hover {
+  color: var(--blue-color);
+}
+.header__logo--black {
+  color: var(--black-color);
+}
+

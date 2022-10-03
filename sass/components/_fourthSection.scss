@@ -1,0 +1,37 @@
+.fourth-section__name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--dark-gray-color);
+  margin: 30px auto 10px;
+}
+.fourth-section__job {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--light-grey-color);
+  margin: 0;
+  padding-bottom: 16px;
+}
+
+.fourth-section {
+  background-color: #f5f4fa;
+}
+.fourth-section__card {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.fourth-section__item {
+  width: 270px;
+  height: 428px;
+  left: 215px;
+  top: 1635px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  text-align: center;
+}

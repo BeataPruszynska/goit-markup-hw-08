@@ -1,0 +1,29 @@
+.footer__icon {
+  fill: #ffffff;
+}
+
+.footer__icon-border {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.1);
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer__icon-position {
+  display: flex;
+  justify-content: space-between;
+  width: 206px;
+}
+.footer__icon-border:hover,
+.footer__icon-border:focus {
+  background-color: var(--blue-color);
+}
+.footer__icon-border:hover .footer__icon,
+.footer__icon-border:focus .footer__icon {
+  fill: #ffffff;
+}

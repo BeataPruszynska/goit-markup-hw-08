@@ -1,0 +1,30 @@
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  color: var(--dark-gray-color);
+  background-color: var(--white-color);
+}
+
+img {
+  display: block;
+}
+.section__header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.67;
+  letter-spacing: 0.03em;
+  color: var(--dark-gray-color);
+  height: 42px;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 50px;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
