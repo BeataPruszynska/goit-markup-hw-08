@@ -7,20 +7,22 @@ body {
 img {
   display: block;
 }
-.section__header {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.67;
-  letter-spacing: 0.03em;
-  color: getColor("primary");
-  height: 42px;
-  text-align: center;
-  margin: 0;
-  margin-bottom: 50px;
-}
+
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+
+  &__header {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.67;
+    letter-spacing: 0.03em;
+    color: getColor("primary");
+    height: 42px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 50px;
+  }
 }
 .container {
   width: 1200px;

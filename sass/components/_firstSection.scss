@@ -24,29 +24,28 @@
     width: 696px;
     margin: 0 auto;
   }
-}
-
-.first-section__button {
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
-  background: getColor("link");
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  cursor: pointer;
-  border: none;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: getColor("background");
-  font-family: "Roboto";
-  font-style: normal;
-  display: block;
-  align-items: center;
-  margin: 0 auto;
-  margin-top: 30px;
+  &__button {
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
+    background: getColor("link");
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: getColor("background");
+    font-family: "Roboto";
+    font-style: normal;
+    display: block;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
 }
