@@ -9,9 +9,9 @@
     fill: getColor("link");
     border: 1px solid getColor("link");
   }
-  &-position {
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-  }
+}
+.fifth-section__icons-position {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
 }
