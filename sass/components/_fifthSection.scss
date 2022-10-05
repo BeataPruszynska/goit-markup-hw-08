@@ -1,17 +1,19 @@
-.fifth-section__icons {
-  border: 1px solid getColor("icons");
-  border-radius: 4px;
-  fill: getColor("icons");
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  &:hover,
-  &:focus {
-    fill: getColor("link");
-    border: 1px solid getColor("link");
+.fifth-section {
+  &__icons {
+    border: 1px solid getColor("icons");
+    border-radius: 4px;
+    fill: getColor("icons");
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+      fill: getColor("link");
+      border: 1px solid getColor("link");
+    }
   }
-}
-.fifth-section__icons-position {
-  display: flex;
-  justify-content: space-between;
-  list-style-type: none;
+  &__icons-position {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+  }
 }
