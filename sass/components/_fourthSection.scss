@@ -42,32 +42,32 @@
     & :focus {
       fill: getColor("background");
     }
-    &-positon {
-      display: flex;
-      justify-content: space-between;
-      margin-left: 32px;
-      margin-right: 32px;
-      margin-bottom: 30px;
-    }
-    &-border {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: getColor("background");
-      height: 44px;
-      width: 44px;
-      border-radius: 50%;
-      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  &__icons-positon {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-bottom: 30px;
+  }
+  &__icons-border {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: getColor("background");
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-      &:hover,
-      &:focus {
-        background-color: getColor("link");
-      }
-      &:hover .fourth-section__icons,
-      &:focus .fourth-section__icons {
-        fill: getColor("background");
-      }
+    &:hover,
+    &:focus {
+      background-color: getColor("link");
+    }
+    &:hover .fourth-section__icons,
+    &:focus .fourth-section__icons {
+      fill: getColor("background");
     }
   }
 }
