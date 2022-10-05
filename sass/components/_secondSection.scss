@@ -32,13 +32,12 @@
   }
   &__icons {
     width: 100%;
-
-    &-background {
-      height: 120px;
-      background: getColor("button");
-      border-radius: 4px;
-      display: flex;
-      align-items: center;
-    }
+  }
+  &_icons-background {
+    height: 120px;
+    background: getColor("button");
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
   }
 }
