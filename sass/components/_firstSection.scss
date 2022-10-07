@@ -1,45 +1,49 @@
-// @media screen and (min-width: 320px) and (max-width: 767px) {
-//   .first-section {
-//     max-width: 100%;
-//     margin: 0 auto;
-//     padding-top: 200px;
-//     padding-bottom: 200px;
-//     background-image: linear-gradient(
-//         0deg,
-//         rgba(47, 48, 58, 0.4) 0%,
-//         rgba(47, 48, 58, 0.4) 100%
-//       ),
-//       url("../images/Header mobile1x.jpg");
-//     background-repeat: no-repeat;
-//     flex-grow: 1;
-//     background-position: center;
-//     background-color: getColor("darkBackground");
-//   }
-// }
-// .first-section__heading {
-//   font-weight: 900;
-//   font-size: 26x;
-//   line-height: 1.62;
-//   text-align: center;
-//   letter-spacing: 0.06em;
-//   text-transform: uppercase;
-//   color: getColor("background");
-//   width: 365px;
-//   margin: 0 auto;
-// }
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .first-section {
+    max-width: 100%;
+    margin: 0 auto;
+    padding-top: 118px;
+    padding-bottom: 118px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(47, 48, 58, 0.4) 0%,
+        rgba(47, 48, 58, 0.4) 100%
+      ),
+      url("../images/Header mobile1x.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-grow: 1;
+    background-position: center;
+    background-color: getColor("darkBackground");
 
-// @media screen and (min-device-pixel-ratio: 2) and (min-width: 320px) and (max-width: 767px),
-//   screen and (min-resolution: 192dpi) and (min-width: 320px) and (max-width: 767px),
-//   screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px) {
-//   .first-section {
-//     background-image: linear-gradient(
-//         0deg,
-//         rgba(47, 48, 58, 0.4) 0%,
-//         rgba(47, 48, 58, 0.4) 100%
-//       ),
-//       url("../images/Header mobile@2x.jpg");
-//   }
-// }
+    &__heading {
+      font-family: Roboto;
+      font-weight: 900;
+      font-size: 26px;
+      line-height: 1.62;
+      text-align: center;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: getColor("background");
+      width: 365px;
+      padding: 0;
+      margin: 0;
+    }
+  }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 320px) and (max-width: 767px),
+  screen and (min-resolution: 192dpi) and (min-width: 320px) and (max-width: 767px),
+  screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px) {
+  .first-section {
+    background-image: linear-gradient(
+        0deg,
+        rgba(47, 48, 58, 0.4) 0%,
+        rgba(47, 48, 58, 0.4) 100%
+      ),
+      url("../images/Header mobile@2x.jpg");
+  }
+}
 
 // .first-section {
 //   max-width: 1600px;

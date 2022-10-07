@@ -1,24 +1,26 @@
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  color: getColor("primary");
+  background-color: getColor("background");
+}
 .container {
-  max-width: 100%;
+  width: 100%;
+
   padding: 0 15px;
+  margin: 0 auto;
 }
 
-@media screen and (min-width: 480px) {
-  .container {
-    max-width: 480px;
-    padding: 0 15px;
-    margin: 0 auto;
-  }
-}
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 768px;
+    width: 100%;
+    max-width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
   }
 }
 @media screen and (min-width: 1200px) {
   .container {
+    width: 100%;
     max-width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
@@ -31,15 +33,12 @@
 //   margin: 0 auto;
 // }
 
-// body {
-//   font-family: "Roboto", "Raleway", sans-serif;
-//   color: getColor("primary");
-//   background-color: getColor("background");
-// }
-
 // img {
 //   display: block;
-// }
+// width: 100%;
+// height: auto;
+
+// // }
 
 // .section {
 //   padding-top: 94px;
