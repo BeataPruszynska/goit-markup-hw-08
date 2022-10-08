@@ -61,35 +61,26 @@
             </div>
           </li>
         </ul>
-      <!-- </div>   <button
-          class="menu-toggle js-open-menu"
-          aria-expanded="false"
-          aria-controls="mobile-menu"
-        >
-          <svg
-            width="24"
-            height="24"
-            fill="currentColor"
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              fill-rule="evenodd"
-              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-              clip-rule="evenodd"
-            ></path>
-          </svg>
-        </button> -->
+      </div>
+      <button
+        class="menu-toggle js-open-menu"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+      >
+        <svg class="header__menu" width="24" height="16">
+          <use xlink:href="./images/icons.svg#icon-menu"></use>
+        </svg>
+      </button>
     </header>
     <main>
       <section class="first-section">
         <h1 class="first-section__heading">
-          EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU
+          EFEKTYWNE ROZWIĄZANIA<br />DLA WASZEGO BIZNESU
         </h1>
         <button class="first-section__button" type="button" data-modal-open>
           Zamów usługę
         </button>
-      <!-- </section>
+        <!-- </section>
 
       <section class="second-section section container">
         <ul class="second-section__cards">
@@ -546,7 +537,75 @@
         </form>
       </div>
     </div> -->
-    <script src="./js/modal.js"></script>
-    <script src="./js/mobile-menu.js"></script>
-  <!-- </body>
+        <div class="mobile js-menu-container" id="mobile-menu">
+          <button class="menu-toggle js-close-menu">
+            <svg class="mobile__exit">
+              <use
+                xlink:href="./images/icons.svg#icon-close-btn"
+                width="18.67"
+                height="18.67"
+              ></use>
+            </svg>
+          </button>
+
+          <ul class="mobile__menu">
+            <li>
+              <a href="./index.html" class="mobile__menu-link">Agencja</a>
+            </li>
+            <li>
+              <a href="./portfolio.html" class="mobile__menu-link">Portfolio</a>
+            </li>
+            <li>
+              <a href="./contacts.html" class="mobile__menu-link">Kontakty</a>
+            </li>
+          </ul>
+          <div class="mobile__links">
+            <ul class="mobile__contacts">
+              <li>
+                <a href="tel:+48111111111" class="mobile__contacts-phone"
+                  >+48 111 111 111</a
+                >
+              </li>
+              <li>
+                <a
+                  href="mailto:info@devstudio.com"
+                  class="mobile__contacts-email"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+            <ul class="mobile__socials">
+              <li>
+                <a href="https://instagram.com" class="mobile__socials-link"
+                  >Instagram</a
+                >
+              </li>
+              <li class="mobile__socials-link">|</li>
+              <li>
+                <a href="https://twitter.com" class="mobile__socials-link"
+                  >Twitter</a
+                >
+              </li>
+              <li class="mobile__socials-link">|</li>
+              <li>
+                <a href="https://facebook.com" class="mobile__socials-link"
+                  >Facebook</a
+                >
+              </li>
+              <li class="mobile__socials-link">|</li>
+              <li>
+                <a href="https://linkedin.com" class="mobile__socials-link"
+                  >LinkedIn</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <script src="./js/modal.js"></script>
+        <script src="./js/mobile-menu.js"></script>
+        <!-- </body>
 </html> -->
+      </section>
+    </main>
+  </body>
+</html>
