@@ -948,4 +948,10 @@ body {
   position: absolute;
   top: 22px;
   right: 15px;
+}
+
+@media (max-width: 767px) {
+  .mobile__menu {
+    display: none;
+  }
 }/*# sourceMappingURL=main.css.map */
