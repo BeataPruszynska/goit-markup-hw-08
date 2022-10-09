@@ -7,6 +7,9 @@
   padding-top: 16px;
   padding-bottom: 16px;
   position: relative;
+  &__border {
+    border-bottom: 1px solid getColor("border");
+  }
 
   &__logo {
     font-family: "Raleway";
@@ -30,8 +33,7 @@
   &__link,
   &__contact,
   &__center,
-  &__icons,
-  &__border {
+  &__icons {
     display: none;
   }
 }
@@ -51,8 +53,7 @@
     &__link,
     &__contact,
     &__center,
-    &__icons,
-    &__border {
+    &__icons {
       display: unset;
     }
     &__nav {
