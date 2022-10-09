@@ -18,7 +18,7 @@
     />
   </head>
   <body>
-    <header class="header__border">
+       <header class="header__border">
       <div class="header container">
         <a class="header__logo" href="./index.html"
           >Web<span class="header__logo--black">Studio</span></a
@@ -26,14 +26,12 @@
         <nav>
           <ul class="header__nav">
             <li>
-              <a class="header__center" href="#">Agencja</a>
+              <a class="header__center header__center--active" href="#"
+                >Agencja</a
+              >
             </li>
             <li>
-              <a
-                class="header__center header__center--active"
-                href="./portfolio.html"
-                >Portfolio</a
-              >
+              <a class="header__center" href="./portfolio.html">Portfolio</a>
             </li>
             <li><a class="header__center" href="#">Kontakt</a></li>
           </ul>
@@ -63,8 +61,27 @@
           </li>
         </ul>
       </div>
+      <button
+        class="menu-toggle js-open-menu"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+      >
+        <svg
+          width="24"
+          height="24"
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+            clip-rule="evenodd"
+          ></path>
+        </svg>
+      </button>
     </header>
-    <main>
+    <!-- <main>
       <section class="section container">
         <section class="button-container">
           <ul>
@@ -308,63 +325,65 @@
         </section>
       </section>
     </main>
-    <footer class="footer">
+   <footer class="footer">
       <div class="container footer__with-social">
-        <div>
-          <a class="footer__logo" href="./index.html"
-            >Web<span class="footer__logo--white">Studio</span></a
-          >
-          <address class="footer__adress">
-            m. Warszawa, Aleje Jerozolimskie 21
-          </address>
-          <ul class="footer__column-height">
-            <li>
-              <a class="footer__contact" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
+        <div class="footer__two-columns">
+          <div class="footer__first-column">
+            <a class="footer__logo" href="./index.html"
+              >Web<span class="footer__logo--white">Studio</span></a
+            >
+            <address class="footer__adress">
+              m. Warszawa, Aleje Jerozolimskie 21
+            </address>
+            <ul class="footer__column-contact">
+              <li>
+                <a class="footer__contact" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
 
-            <li>
-              <a class="footer__contact" href="tel:+48111111111"
-                >+48 111 111 111</a
-              >
-            </li>
-          </ul>
-        </div>
+              <li>
+                <a class="footer__contact" href="tel:+48111111111"
+                  >+48 111 111 111</a
+                >
+              </li>
+            </ul>
+          </div>
 
-        <div>
-          <h4 class="footer__title">Dołącz do nas</h4>
+          <div class="footer__second-column">
+            <h4 class="footer__title">Dołącz do nas</h4>
 
-          <ul class="footer__icon-position">
-            <li>
-              <a href="#" class="footer__icon-border">
-                <svg class="footer__icon" height="20" width="20">
-                  <use xlink:href="./images/icons.svg#icon-instagram-2"></use>
-                </svg>
-              </a>
-            </li>
-            <li>
-              <a href="#" class="footer__icon-border">
-                <svg class="footer__icon" height="20" width="20">
-                  <use xlink:href="./images/icons.svg#icon-twitter-1"></use>
-                </svg>
-              </a>
-            </li>
-            <li>
-              <a href="#" class="footer__icon-border">
-                <svg class="footer__icon" height="20" width="20">
-                  <use xlink:href="./images/icons.svg#icon-facebook-1"></use>
-                </svg>
-              </a>
-            </li>
-            <li>
-              <a href="#" class="footer__icon-border">
-                <svg class="footer__icon" height="20" width="20">
-                  <use xlink:href="./images/icons.svg#icon-linkedin-1"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
+            <ul class="footer__icon-position">
+              <li>
+                <a href="#" class="footer__icon-border">
+                  <svg class="footer__icon" height="20" width="20">
+                    <use xlink:href="./images/icons.svg#icon-instagram-2"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer__icon-border">
+                  <svg class="footer__icon" height="20" width="20">
+                    <use xlink:href="./images/icons.svg#icon-twitter-1"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer__icon-border">
+                  <svg class="footer__icon" height="20" width="20">
+                    <use xlink:href="./images/icons.svg#icon-facebook-1"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer__icon-border">
+                  <svg class="footer__icon" height="20" width="20">
+                    <use xlink:href="./images/icons.svg#icon-linkedin-1"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
         <div class="footer__column-height">
           <h4 class="footer__title">Zapisz się do newslettera</h4>
@@ -388,6 +407,6 @@
           </form>
         </div>
       </div>
-    </footer>
+    </footer> -->
   </body>
 </html>
