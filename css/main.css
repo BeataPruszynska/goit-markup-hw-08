@@ -811,9 +811,96 @@ img {
 }
 
 @media screen and (min-width: 768px) {
+  .footer {
+    height: 463px;
+  }
   .footer__two-columns {
     display: flex;
     flex-direction: row;
+    gap: 144px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer {
+    height: 252px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #2f303a;
+  }
+  .footer__title {
+    height: 16px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 20px;
+    margin-top: 12px;
+  }
+  .footer__first-column {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+  }
+  .footer__two-columns {
+    display: flex;
+    gap: 70px;
+    justify-content: baseline;
+  }
+  .footer__column-height {
+    height: 80px;
+    margin: 0;
+    margin-left: auto;
+  }
+  .footer__column-height input {
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background: #2f303a;
+  }
+  .footer__column-height input::placeholder {
+    padding-left: 16px;
+  }
+  .footer__with-social {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 0;
+  }
+  .footer__button {
+    width: 200px;
+    height: 50px;
+    background: #2196f3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-color: #2196f3;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    padding-right: 52px;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+    cursor: pointer;
+    margin: 0;
+  }
+  .footer__button-icon {
+    fill: #ffffff;
+    position: absolute;
+    margin-left: 24px;
+  }
+  .footer__logo {
+    font-family: "Raleway";
+    color: #2196f3;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+    letter-spacing: 0.03em;
   }
 }
 .is-hidden {
