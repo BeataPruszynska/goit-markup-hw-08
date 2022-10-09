@@ -23,13 +23,25 @@ img {
     padding: 0 15px;
     margin: 0 auto;
   }
-}
-@media screen and (min-width: 1200px) {
-  .container {
-    width: 100%;
-    max-width: 1200px;
-    padding: 0 15px;
-    margin: 0 auto;
+
+  @media screen and (min-width: 1200px) {
+    .container {
+      width: 100%;
+      max-width: 1200px;
+      padding: 0 15px;
+      margin: 0 auto;
+    }
+    .section__header {
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 1.67;
+      letter-spacing: 0.03em;
+      color: getColor("primary");
+      height: 42px;
+      text-align: center;
+      margin: 0;
+      margin-bottom: 50px;
+    }
   }
 }
 // .container {

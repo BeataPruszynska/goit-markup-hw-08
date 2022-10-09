@@ -1,5 +1,5 @@
 .second-section {
-  padding-bottom: 60px;
+  padding-bottom: 94px;
   padding-top: 60px;
 
   &__title {
@@ -63,6 +63,21 @@
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .second-section {
+    &__cards {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+      align-items: center;
+    }
+    &__cards-witdh {
+      width: 270px;
+    }
+  }
+}
 // .second-section {
 //   padding-bottom: 0px
 // ;
