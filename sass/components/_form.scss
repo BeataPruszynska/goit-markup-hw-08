@@ -1,10 +1,10 @@
 .form {
-  width: 448px;
+  width: 370px;
   height: 342px;
-  margin: 40px auto;
+  margin: 40px;
 
   &__input-style {
-    width: 448px;
+    width: 370px;
     height: 40px;
     border: 1px solid getColor("link");
     border-radius: 4px;
@@ -28,7 +28,7 @@
   }
   &__group textarea {
     resize: none;
-    width: 448px;
+    width: 370px;
     height: 120px;
     font-weight: 400;
     font-size: 12px;
@@ -74,7 +74,8 @@
     border-radius: 4px;
     border-color: getColor("link");
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    margin: 30px 124px;
+    margin-top: 30px;
+    margin-left: 85px;
     cursor: pointer;
     position: relative;
 
@@ -94,7 +95,7 @@
   }
   &__terms-text {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: getColor("secondary");
@@ -118,7 +119,7 @@
     width: 16px;
     height: 16px;
     margin-right: 8px;
-    margin-left: 15px;
+    margin-left: 0;
     padding: 0;
     cursor: pointer;
     outline: none;
@@ -139,5 +140,34 @@
     -moz-appearance: none;
     -webkit-appearance: none;
     appearance: none;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .form {
+    width: 448px;
+    height: 342px;
+    margin: 40px auto;
+    &__terms-text {
+      font-size: 14px;
+    }
+    &__input-style {
+      width: 448px;
+    }
+    &__checkbox {
+      margin-left: 15px;
+    }
+    &__group textarea {
+      width: 448px;
+    }
+    &__button-submit {
+      width: 200px;
+      height: 50px;
+      background: getColor("link");
+      border-radius: 4px;
+      border-color: getColor("link");
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+      margin: 30px 124px;
+    }
   }
 }

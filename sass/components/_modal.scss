@@ -16,10 +16,11 @@
 }
 
 .modal {
+  max-width: 450px;
+  min-height: 609px;
   top: 50%;
   left: 50%;
-  width: 528px;
-  min-height: 581px;
+
   position: absolute;
   background-color: getColor("background");
   visibility: visible;
@@ -41,4 +42,11 @@
     padding: 0;
     fill: getColor("black");
   }
+}
+
+@media screen and (min-width: 1200px) {
+  .modal {
+      min-width: 528px;
+    min-height: 581px;
+     }
 }
