@@ -1,12 +1,16 @@
 .fourth-section {
   background-color: getColor("button");
+ 
 
   &__card {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
   }
   &__name {
     font-weight: 500;
@@ -24,10 +28,9 @@
     padding-bottom: 16px;
   }
   &__item {
-    width: 270px;
-    height: 428px;
-    left: 215px;
-    top: 1635px;
+    width: 450px;
+    height: 622px;
+
     background: getColor("background");
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
       0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -45,15 +48,16 @@
   }
   &__icons-positon {
     display: flex;
-    justify-content: space-between;
-    margin-left: 32px;
-    margin-right: 32px;
-    margin-bottom: 30px;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 24px;
+  
   }
   &__icons-border {
     display: flex;
     align-items: center;
     justify-content: center;
+    
     background: getColor("background");
     height: 44px;
     width: 44px;
@@ -71,3 +75,127 @@
     }
   }
 }
+
+@media screen and (min-width: 768px) {
+  .fourth-section {
+    &__card {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+    }
+    &__item {
+      width: 354px;
+      height: 536px;
+
+      background: getColor("background");
+      box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+        0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+      border-radius: 0px 0px 4px 4px;
+      text-align: center;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .fourth-section {
+    &__card {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+    }
+    &__item {
+      width: 270px;
+      height: 425px;
+
+      background: getColor("background");
+      box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+        0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+      border-radius: 0px 0px 4px 4px;
+      text-align: center;
+    }
+  }
+}
+// .fourth-section {
+//   background-color: getColor("button");
+//   padding-top: 94px;
+
+//   &__card {
+//     list-style-type: none;
+//     margin: 0;
+//     padding: 0;
+//     display: flex;
+//     justify-content: space-between;
+//   }
+//   &__name {
+//     font-weight: 500;
+//     font-size: 16px;
+//     line-height: 1.19;
+//     color: getColor("primary");
+//     margin: 30px auto 10px;
+//   }
+//   &__job {
+//     font-weight: 400;
+//     font-size: 16px;
+//     line-height: 1.19;
+//     color: getColor("secondary");
+//     margin: 0;
+//     padding-bottom: 16px;
+//   }
+//   &__item {
+//     width: 270px;
+//     height: 428px;
+//     left: 215px;
+//     top: 1635px;
+//     background: getColor("background");
+//     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+//       0px 2px 1px rgba(0, 0, 0, 0.2);
+//     border-radius: 0px 0px 4px 4px;
+//     text-align: center;
+//   }
+//   &__icons {
+//     fill: getColor("icons");
+//     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+//     & :hover,
+//     & :focus {
+//       fill: getColor("background");
+//     }
+//   }
+//   &__icons-positon {
+//     display: flex;
+//     justify-content: space-between;
+//     margin-left: 32px;
+//     margin-right: 32px;
+//     margin-bottom: 30px;
+//   }
+//   &__icons-border {
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     background: getColor("background");
+//     height: 44px;
+//     width: 44px;
+//     border-radius: 50%;
+//     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+//       fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+//     &:hover,
+//     &:focus {
+//       background-color: getColor("link");
+//     }
+//     &:hover .fourth-section__icons,
+//     &:focus .fourth-section__icons {
+//       fill: getColor("background");
+//     }
+//   }
+// }

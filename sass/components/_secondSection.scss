@@ -1,5 +1,5 @@
 .second-section {
-  padding-bottom: 94px;
+  padding-bottom: 60px;
   padding-top: 60px;
 
   &__title {
@@ -49,6 +49,8 @@
 
 @media screen and (min-width: 768px) {
   .second-section {
+    padding-bottom: 45px;
+
     &__cards {
       display: flex;
       flex-direction: row;
@@ -65,6 +67,7 @@
 
 @media screen and (min-width: 1200px) {
   .second-section {
+    padding-bottom: 94px;
     &__cards {
       display: flex;
       flex-direction: row;

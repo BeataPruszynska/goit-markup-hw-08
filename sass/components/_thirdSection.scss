@@ -1,6 +1,7 @@
 @media screen and (max-width: 1199px) {
   .third-section {
     display: none;
+
     &__text,
     &__container,
     &__description {
@@ -11,6 +12,7 @@
 
 @media screen and (min-width: 1200px) {
   .third-section {
+    padding-bottom: 94px;
     & > ul {
       margin: 0;
       padding: 0;
