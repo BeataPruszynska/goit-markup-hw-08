@@ -10,8 +10,6 @@
     &:focus {
       fill: getColor("link");
       border: 1px solid getColor("link");
-      flex-basis: calc((100% - 30px) / 1);
-      flex-grow: 1;
     }
   }
   &__icons-position {
@@ -31,7 +29,6 @@
       flex-direction: row;
       flex-wrap: wrap;
       gap: 30px;
-      justify-content: center;
       list-style-type: none;
       flex-basis: calc((100% - 60px) / 3);
     }

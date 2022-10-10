@@ -449,6 +449,7 @@ img {
 @media screen and (min-width: 1200px) {
   .second-section {
     padding-bottom: 94px;
+    margin: 30px auto 0 auto;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -635,8 +636,6 @@ img {
 .fifth-section__icons:hover, .fifth-section__icons:focus {
   fill: #2196f3;
   border: 1px solid #2196f3;
-  flex-basis: calc((100% - 30px) / 1);
-  flex-grow: 1;
 }
 .fifth-section__icons-position {
   display: flex;
@@ -653,7 +652,6 @@ img {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 30px;
-    justify-content: center;
     list-style-type: none;
     flex-basis: calc((100% - 60px) / 3);
   }

@@ -78,14 +78,13 @@
 @media screen and (min-width: 1200px) {
   .second-section {
     padding-bottom: 94px;
+    margin: 30px auto 0 auto;
     &__cards {
       display: flex;
       flex-direction: row;
       flex-wrap: nowrap;
       gap: 30px;
       justify-content: center;
-     
-      
     }
     &__cards-witdh {
       width: 270px;
