@@ -161,6 +161,7 @@
 }
 @media screen and (min-width: 1200px) {
   .footer {
+    max-width: 1600px;
     height: 252px;
     padding-top: 60px;
     padding-bottom: 60px;
@@ -177,7 +178,6 @@
       color: getColor("background");
       margin-bottom: 20px;
       margin-top: 12px;
-     
     }
     &__first-column {
       text-align: left;
@@ -191,7 +191,7 @@
     }
     &__column-height {
       height: 80px;
-      margin:0;
+      margin: 0;
       margin-left: auto;
 
       & input {
@@ -212,7 +212,6 @@
       justify-content: space-around;
       flex-direction: row;
       margin: 0;
-     
     }
     &__button {
       width: 200px;

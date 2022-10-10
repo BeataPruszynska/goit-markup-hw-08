@@ -826,6 +826,7 @@ img {
 }
 @media screen and (min-width: 1200px) {
   .footer {
+    max-width: 1600px;
     height: 252px;
     padding-top: 60px;
     padding-bottom: 60px;
@@ -1284,11 +1285,6 @@ img {
     display: none;
   }
 }
-@media (min-width: 768px) {
-  .menu-toggle {
-    display: none;
-  }
-}
 .menu-container {
   position: fixed;
   top: 0;
@@ -1300,9 +1296,11 @@ img {
   z-index: 999;
   transform: translateX(100%);
   transition: transform 250ms ease-in-out;
+  visibility: hidden;
 }
 .menu-container.is-open {
   transform: translateX(0);
+  visibility: visible;
 }
 .menu-container .menu-toggle {
   position: absolute;
@@ -1386,4 +1384,10 @@ img {
   color: #2196f3;
   font-weight: 500;
   padding-bottom: 48px;
+}
+
+@media (min-width: 768px) {
+  .menu-toggle {
+    display: none;
+  }
 }/*# sourceMappingURL=main.css.map */

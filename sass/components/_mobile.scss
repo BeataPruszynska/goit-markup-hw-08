@@ -24,11 +24,7 @@
     display: none;
   }
 }
-@media (min-width: 768px) {
-  .menu-toggle {
-    display: none;
-  }
-}
+
 
 .menu-container {
   position: fixed;
@@ -42,8 +38,10 @@
 
   transform: translateX(100%);
   transition: transform 250ms ease-in-out;
+  visibility: hidden;
   &.is-open {
     transform: translateX(0);
+    visibility: visible;
   }
   & .menu-toggle {
     position: absolute;
@@ -132,5 +130,10 @@
       font-weight: 500;
       padding-bottom: 48px;
     }
+  }
+}
+@media (min-width: 768px) {
+  .menu-toggle {
+    display: none;
   }
 }
