@@ -42,7 +42,7 @@
   &__with-social {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items:center;
   }
   &__button {
     width: 200px;
@@ -146,7 +146,7 @@
   &__first-column {
     text-align: center;
     margin: 0;
-    padding: 0;
+    padding-bottom: 40px;
   }
 }
 
