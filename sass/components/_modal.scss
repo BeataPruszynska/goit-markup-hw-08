@@ -16,8 +16,8 @@
 }
 
 .modal {
-  max-width: 450px;
-  min-height: 609px;
+  width: 100%;
+  height: 609px;
   top: 50%;
   left: 50%;
 
@@ -43,10 +43,15 @@
     fill: getColor("black");
   }
 }
-
+@media screen and (min-width: 768px) {
+  .modal {
+    width: 450px;
+    height: 609px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .modal {
-      min-width: 528px;
-    min-height: 581px;
-     }
+    width: 528px;
+    height: 581px;
+  }
 }
