@@ -700,6 +700,7 @@ img {
 }
 .footer__column-height > h4 {
   margin-top: 0;
+  max-width: 450px;
 }
 .footer__column-height input {
   width: 100%;
@@ -1291,16 +1292,13 @@ img {
   left: 0;
   width: 100vw;
   height: 100vh;
-  padding: 32px;
   background-color: #ffffff;
   z-index: 999;
   transform: translateX(100%);
   transition: transform 250ms ease-in-out;
-  visibility: hidden;
 }
 .menu-container.is-open {
   transform: translateX(0);
-  visibility: visible;
 }
 .menu-container .menu-toggle {
   position: absolute;
@@ -1310,6 +1308,8 @@ img {
 }
 
 .mobile {
+  visibility: hidden;
+  z-index: 999;
   position: fixed;
   top: 0;
   left: 0;
@@ -1325,6 +1325,7 @@ img {
 }
 .mobile.is-open {
   transform: translateX(0);
+  visibility: visible;
 }
 .mobile__links {
   display: flex;
